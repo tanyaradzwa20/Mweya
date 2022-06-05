@@ -209,6 +209,10 @@ section{
   font-size: 50px;
   font-weight: 900;
 }
+.services h2{
+  font-size: 50px;
+  font-weight: 900;
+}
 .about h3{
   font-size: 22px;
   margin-bottom: 30px;
@@ -221,6 +225,14 @@ section{
   line-height: 1.5;
   margin: 15px 0;
 }
+
+.services p{
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 15px 0;
+}
+
 
 .about a{
 color: #2E1910;
@@ -564,10 +576,17 @@ section{
 .about h2 {
   font-size: 30px;
 }
+
+.services h2 {
+  font-size: 30px;
+}
 .about h3{
   font-size: 18px;
 }
 .about p{
+  font-size: 15px;
+}
+.services p{
   font-size: 15px;
 }
 .last {
@@ -672,8 +691,14 @@ footer p span{
   .about h2 {
     font-size: 30px;
   }
+  .services h2{
+    font-size:30px ;
+  }
   .about h3{
     font-size: 18px;
+  }
+  .services p{
+    font-size: 15px;
   }
   .about p{
     font-size: 15px;
@@ -776,6 +801,9 @@ footer p span{
     padding: 80px 40px 0;
   }
   .about h2{
+    font-size: 35px;
+  }
+  .services h2{
     font-size: 35px;
   }
   section{
