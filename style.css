@@ -510,13 +510,15 @@ footer p span{
 
 @media (max-width:600px) {
   .nav img {
-    width: 10%;
-    padding: 20px 0 0 10px;    }
+    width: 12%;
+    padding: 10px 0 0 10px;
+  }
+
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;
     right: 0px;
-    top: 8px;
+    top: 6px;
   }
   .nav-links{
     width: 100%;
@@ -544,7 +546,7 @@ footer p span{
     height: 0px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
-    top: 15px;
+    top: 55px;
     left: 0px;
   }
   .nav > .nav-links > a {
@@ -857,7 +859,7 @@ footer p span{
   }
   .nav > .nav-links > a{
     padding: 10px;
-    font-size: 20px;
+    font-size: px;
   }
 }
 
