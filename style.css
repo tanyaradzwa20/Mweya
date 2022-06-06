@@ -114,7 +114,7 @@ section{
   
   .nav img {
     display: inline-block;
-    width: 15%;
+    width: 10%;
     padding: 0 0 0 40px ;
     object-fit: contain;
   }
@@ -506,7 +506,7 @@ footer p span{
 
   @media (max-width:600px) {
     .nav img {
-      /* width: 10%; */
+      width: 10%;
       padding: 20px 0 0 10px;    }
     .nav > .nav-btn {
       display: inline-block;
@@ -663,8 +663,11 @@ footer p span{
   }
 
   .nav img {
-    width: 40%;
+    width: 10%;
     padding: 15px 0 0 40px;
+  }
+  .nav-links{
+    margin-bottom: 0!important;
   }
   .nav > .nav-links > a{
     font-size: 10px;
@@ -830,6 +833,9 @@ footer p span{
   }
   section{
     margin: 50px 0;
+  }
+  .nav img {
+    width: 10%;
   }
 
 }
