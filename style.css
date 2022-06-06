@@ -13,6 +13,10 @@ body{
     color:#2E1910;
     overflow-x: hidden!important;
 }
+
+body, html{
+  scroll-behavior: smooth!important;
+}
 section{
   margin: 80px 0;
 }
@@ -504,66 +508,66 @@ footer p span{
 
 }
 
-  @media (max-width:600px) {
-    .nav img {
-      width: 10%;
-      padding: 20px 0 0 10px;    }
-    .nav > .nav-btn {
-      display: inline-block;
-      position: absolute;
-      right: 0px;
-      top: 20px;
-    }
-    .nav-links{
-      width: 100%;
-    }
-    .nav > .nav-btn > label {
-      display: inline-block;
-      width: 50px;
-      height: 50px;
-      padding: 13px;
-    }
-    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
-      background-color: none!important;
-    }
-    .nav > .nav-btn > label > span {
-      display: block;
-      width: 25px;
-      height: 10px;
-      border-top: 2px solid #eee;
-    }
-    .nav > .nav-links {
-      position: absolute;
-      display: block;
-      width: 100%;
-      background-color: #333;
-      height: 0px;
-      transition: all 0.3s ease-in;
-      overflow-y: hidden;
-      top: 75px;
-      left: 0px;
-    }
-    .nav > .nav-links > a {
-      display: block;
-      width: 100%;
-      padding: 20px;
-    }
-    .nav > #nav-check:not(:checked) ~ .nav-links {
-      height: 0px;
-    }
-    .nav > #nav-check:checked ~ .nav-links {
-      height: calc(100vh - 50px);
-      overflow-y: auto;
-    }
-    .social{
-      z-index: 2;
-    }
-    .nav{
-      margin-top: 0;
-      justify-content: stretch;
-    }
-
+@media (max-width:600px) {
+  .nav img {
+    width: 10%;
+    padding: 20px 0 0 10px;    }
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 20px;
   }
+  .nav-links{
+    width: 100%;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+    background-color: none!important;
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 75px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+    padding: 20px;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+  .social{
+    z-index: 2;
+  }
+  .nav{
+    margin-top: 0;
+    justify-content: stretch;
+  }
+
+}
 
 /* potrait */
 @media (max-width: 575px){
@@ -663,14 +667,14 @@ footer p span{
   }
 
   .nav img {
-    width: 5%;
+    width: 8%;
     padding: 15px 0 0 40px;
   }
   .nav-links{
     margin-bottom: 0!important;
   }
   .nav > .nav-links > a{
-    font-size: 10px;
+    font-size: 12px;
     padding: 8px;
   }
   .slick-prev {
